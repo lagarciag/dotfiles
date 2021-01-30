@@ -1,6 +1,0 @@
-bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
-bind-key M split-window -h "emacs -nw  ~/.tmux.conf"
-
-setw -g mouse on
-set -g mode-keys emacs
-set -g status-keys emacs
