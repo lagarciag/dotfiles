@@ -2,5 +2,5 @@
 
 $HOME/.dotfiles/common.sh 
 cp  $HOME/.dotfiles/bash/env.sh /etc/profile.d/00-env.sh
-chown -R $USER $HOME/.dotfiles
-chgrp -R $USER $HOME/.dotfiles
+chown -R $USER:$USER $HOME/.dotfiles
+
