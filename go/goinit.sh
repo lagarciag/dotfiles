@@ -12,6 +12,8 @@ go get github.com/stretchr/testify
 go get github.com/stretchr/testify/assert
 cp ~/.dotfiles/go/.golangci.yaml .golangci.yaml
 
+echo "export GOPRIVATE=\"github.hpe.com\"" >> ~/.bashrc
+
 mkdir -p ./.idea
 cp ~/.dotfiles/go/watcherTasks.xml ./.idea/
 # binary will be $(go env GOPATH)/bin/golangci-lint
