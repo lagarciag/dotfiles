@@ -5,13 +5,13 @@ set -e
 go get -u github.com/spf13/cobra
 go get github.com/spf13/cobra/cobra
 go get github.com/spf13/viper
-go get github.com/sirupsen/logrus
+#go get github.com/sirupsen/logrus
 go get github.com/juju/errors
 go get golang.org/x/tools/cmd/goimports
 go get github.com/stretchr/testify
 go get github.com/stretchr/testify/assert
 cp ~/.dotfiles/go/.golangci.yaml .golangci.yaml
-
+cp ~/.dotfiles/go/Makefile Makefile
 echo "export GOPRIVATE=\"github.hpe.com\"" >> ~/.bashrc
 
 mkdir -p ./.idea
