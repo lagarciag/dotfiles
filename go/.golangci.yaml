@@ -86,6 +86,7 @@ linters:
     - unused
     - varcheck
     - whitespace
+    - errorlint
 
   # don't enable:
   # - gochecknoglobals
