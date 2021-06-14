@@ -1,0 +1,15 @@
+#	ams.remoteaccess.hp.com
+#	apj.remoteaccess.hp.com
+#	atc01vpnra07e.atlanta.hp.com
+#	australia.remoteaccess.hp.com
+#	china.remoteaccess.hp.com
+#	emea.remoteaccess.hp.com
+#	germany.remoteaccess.hp.com
+#	global.remoteaccess.hp.com
+#	india.remoteaccess.hp.com
+#	israel.remoteaccess.hp.com
+#	itg.remoteaccess.hp.com
+#	japan.remoteaccess.hp.com
+#	safrica.remoteaccess.hp.com
+#	singapore.remoteaccess.hp.com
+#	uk.remoteaccess.hp.com
